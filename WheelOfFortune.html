@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="WheelOfAesthetics.css">
+    <header>
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" />
+        <meta http-equiv="X-ua-Compatible" content="ie=edge" />
+        <title>Wheel of Fortune</title>
+        <div class="centered">
+            <h1 class="title">Wheel Of FORTUNE!!</h1>
+            <h4>Spinning the wheel will generate either a trivial question or 
+                a question about myself to which the answer
+                may or may not be found on my portfolio website. You have ten chances to win big,
+                so good luck!
+            </h4>
+        </div>
+    </header>
+    <body>
+        <br>
+        <br>
+        <img src="./Images/WheelOfFortune.png" alt="Wheel Of Fortune" id="wheel">
+        <img src="./Images/WheelFrame.png" alt="Wheel frame" id="wheel_frame">
+        <script src="WheelOfMechanics.js" defer></script>
+        <ul id="wheelAndInterface">
+            <li id="filler"></li>
+            <li id="filler2">
+                <ul>
+                    <li class="buttons">
+                        <p><button onclick="myMove()" class="button_format" id="spin">SPIN</button></p>
+                    </li>
+                    <li class="buttons">
+                        <p><button onclick="resetGame()" class="button_format" id="reset_button">reset round</button></p>
+                    </li>
+                    <li class="buttons">
+                        <p><button onclick="$" class="button_format">back to Projects</button></p>
+                    </li>
+                </ul>
+                <br><br><br>
+                <p id="announcer">position: 0</p>
+                <div id="spin_result">
+                    <p id="announcement">Start!</p>
+                    <p id="question_prompt"></p>
+                </div>
+                <br>
+                <div id="answer_interface">
+                    
+                </div>
+                <br>
+                <button onclick="submitAnswer()" id="answer_button">Submit Answer</button>
+                <br><br>
+                <div id="feedbackPanel">
+                    <p id="turns_left">Spins left: 10</p>
+                    <p id="score">0$</p>
+                    <p id="encouragement"></p>
+                    <p id="the_feedback"></p>
+                </div>
+            </li>
+        </ul>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="end_result"> Game Over </p>
+            </div>
+        </div>
+    </body>
+</html>

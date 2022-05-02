@@ -1,0 +1,126 @@
+{
+"questions": [
+    {
+        "prompt":"What is the Bay Area also known as?",
+        "type":"radio button",
+        "choices":["San Francisco", "Silicon Valley", "California", "Silly Cone Valley"],
+        "answer": ["B", "Correct Answer: Silicon Valley."]
+    },
+    {
+        "prompt":"What country is ramen from?",
+        "type":"radio button",
+        "choices":["Japan", "China", "Korea", "McDonald's"],
+        "answer": ["A", "Correct Answer: Japan"]
+    },
+    {
+        "prompt":"What is the average rent price in San Jose, California, as of November 2021?",
+        "type":"radio button",
+        "choices":["$1767/month", "$1891/month", "$2236/month", "$2735/month"],
+        "answer": ["D", "At $2735 a month, San Jose has had the fourth highest average rent in the US."]
+    },
+    {
+        "prompt":"What is Obama's last name?",
+        "type":"radio button",
+        "choices":["Barack", "Hussein", "Oddish", "Obama"],
+        "answer": ["D", "Correct answer: Obama. The conspiracy theories are real."]
+    },
+    {
+        "prompt":"Which color is NOT a primary color?",
+        "type":"radio button",
+        "choices":["Red", "Yellow", "Green", "Blue"],
+        "answer": ["C", "Correct Answer: Green"]
+    },
+    {
+        "prompt":"How long is New Zealand's Ninety Mile Beach?",
+        "type":"radio button",
+        "choices":["55 miles", "78 miles", "90 miles", "110 miles"],
+        "answer": ["A", "Correct Answer: 55 miles"]
+    },
+    {
+        "prompt":"What is the name of the biggest technology company in South Korea?",
+        "type":"radio button",
+        "choices":["Hyundai Motor", "Samsung Electronics", "POSCO", "Hanwha"],
+        "answer": ["B", "Correct Answer: Samsung"]
+    },
+    {
+        "prompt":"Area 51 is located in which state?",
+        "type":"radio button",
+        "choices":["California", "Nevada", "Colorado", "Utah"],
+        "answer": ["B", "Correct Answer: Nevada"]
+    },
+    {
+        "prompt":"Which animal can be seen on the Porsche logo?",
+        "type":"radio button",
+        "choices":["Leopard", "Panda", "Bird", "Horse"],
+        "answer": ["D", "Correct Answer: Horse"]
+    },
+    {
+        "prompt":"What is the name of the African country that lies off the coast of Mozambique?",
+        "type":"radio button",
+        "choices":["Botswana", "Zimbabwe", "Madagascar", "South Africa"],
+        "answer": ["C", "Correct Answer: Madagascar"]
+    },
+    {
+        "prompt":"What geometric shape is generally used for stop signs?",
+        "type":"radio button",
+        "choices":["Circle", "Octagon", "Hexagon", "Square"],
+        "answer": ["B", "Correct Answer: Octagon"]
+    },
+    {
+        "prompt":"Who was the first woman to win a Nobel Prize (in 1903)?",
+        "type":"radio button",
+        "choices":["Marie Curie", "Amelia Earhart", "Aung San Suu Kyi", "Mother Teresa"],
+        "answer": ["A", "Correct Answer: Marie Curie"]
+    },
+    {
+        "prompt":"What is the rarest M&M color?",
+        "type":"radio button",
+        "choices":["Brown", "Green", "Red", "Yellow"],
+        "answer": ["A", "Correct Answer: Brown"]
+    },
+    {
+        "prompt":"In what year were the first Air Jordan sneakers released?",
+        "type":"radio button",
+        "choices":["1984", "1985", "1986", "1987"],
+        "answer": ["A", "Correct Answer: 1984"]
+    },
+    {
+        "prompt":"Tennis star Serena Williams won which major tournament while pregnant with her first child?",
+        "type":"radio button",
+        "choices":["Australian Open", "French Open", "Wimbledon", "US Open"],
+        "answer": ["A", "Correct Answer: Australian Open"]
+    },
+    {
+        "prompt":"Which Dutch artist painted “Girl with a Pearl Earring”?",
+        "type":"radio button",
+        "choices":["Monet", "Vermeer", "Rembrandt", "Manet"],
+        "answer": ["B", "Correct Answer: Vermeer"]
+    },
+    {
+        "prompt":"Which African country was formerly known as Abyssinia?",
+        "type":"radio button",
+        "choices":["Tanzania", "Egypt", "Nigeria", "Ethiopia"],
+        "answer": ["D", "Correct Answer: Ethiopia"]
+    }
+],
+"personal_questions": [
+    {
+        "prompt":"Which programming language am I LEAST familiar with?",
+        "type":"radio button",
+        "choices":["Javascript", "Flash CS3 ActionScript", "Python", "Swift"],
+        "answer": ["D", "Correct Answer: Swift"]
+    },
+    {
+        "prompt":"When did I start learning to code seriously?",
+        "type":"radio button",
+        "choices":["June 2020", "October 2020", "June 2021", "October 2021"],
+        "answer": ["D", "Correct Answer: October 2021. It has been a wild ride :)"]
+    },
+    {
+        "prompt":"What is the name of the cat in the center of the Wheel of Fortune?",
+        "type":"radio button",
+        "choices":["Huang Mao", "Remy", "Sam", "Hua Mao"],
+        "answer": ["A", "Correct Answer: Huang Mao"]
+    }
+]
+}
